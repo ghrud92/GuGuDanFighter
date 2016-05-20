@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById( R.id.button_record ).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(MainActivity.this, RecordActivity.class));
             }
         });
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById( R.id.button_help ).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(MainActivity.this, HelpActivity.class));
             }
         });
 

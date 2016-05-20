@@ -29,14 +29,14 @@
         android:layout_marginRight="5dp"
         android:textSize="32dp"
         android:layout_below="@+id/textView2"
-        android:layout_toLeftOf="@+id/button"
-        android:layout_toStartOf="@+id/button" />
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2" />
 
     <Button
         android:layout_width="93dp"
         android:layout_height="93dp"
         android:text="88"
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:textSize="32dp"
         android:layout_alignTop="@+id/button1"
         android:layout_centerHorizontal="true" />
@@ -48,20 +48,9 @@
         android:id="@+id/button3"
         android:textSize="32dp"
         android:layout_marginLeft="5dp"
-        android:layout_alignTop="@+id/button"
-        android:layout_toRightOf="@+id/button"
-        android:layout_toEndOf="@+id/button" />
-
-    <Button
-        android:layout_width="93dp"
-        android:layout_height="93dp"
-        android:text="88"
-        android:id="@+id/button2"
-        android:textSize="32dp"
-        android:layout_marginRight="5dp"
-        android:layout_below="@+id/button1"
-        android:layout_toLeftOf="@+id/button4"
-        android:layout_toStartOf="@+id/button4" />
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
 
     <Button
         android:layout_width="93dp"
@@ -69,9 +58,10 @@
         android:text="88"
         android:id="@+id/button4"
         android:textSize="32dp"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/button1"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5" />
 
     <Button
         android:layout_width="93dp"
@@ -79,9 +69,9 @@
         android:text="88"
         android:id="@+id/button5"
         android:textSize="32dp"
-        android:layout_alignTop="@+id/button4"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
 
     <Button
         android:layout_width="93dp"
@@ -89,10 +79,9 @@
         android:text="88"
         android:id="@+id/button6"
         android:textSize="32dp"
-        android:layout_marginRight="5dp"
-        android:layout_alignTop="@+id/button8"
-        android:layout_toLeftOf="@+id/button7"
-        android:layout_toStartOf="@+id/button7" />
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
 
     <Button
         android:layout_width="93dp"
@@ -100,9 +89,10 @@
         android:text="88"
         android:id="@+id/button7"
         android:textSize="32dp"
-        android:layout_alignBottom="@+id/button6"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_marginRight="5dp"
+        android:layout_alignTop="@+id/button9"
+        android:layout_toLeftOf="@+id/button8"
+        android:layout_toStartOf="@+id/button8" />
 
     <Button
         android:layout_width="93dp"
@@ -110,9 +100,19 @@
         android:text="88"
         android:id="@+id/button8"
         android:textSize="32dp"
-        android:layout_below="@+id/button5"
+        android:layout_alignBottom="@+id/button7"
         android:layout_alignLeft="@+id/button5"
         android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:text="88"
+        android:id="@+id/button9"
+        android:textSize="32dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -138,7 +138,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2/5"
+        android:text="0/0"
         android:id="@+id/textView6"
         android:textColor="#000"
         android:textSize="18dp"
@@ -154,7 +154,7 @@
         android:id="@+id/textView8"
         android:textSize="52dp"
         android:textColor="#000"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true" />
 
     <TextView

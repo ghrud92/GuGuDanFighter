@@ -9,4 +9,45 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.estsoft.gugudanfighter.ResultActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="맞춘개수"
+        android:id="@+id/textView13"
+        android:layout_marginTop="60dp"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다시 게임을 시작하시겠습니까?"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/againBtn"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/quitBtn"
+        android:layout_alignBaseline="@+id/againBtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"/>
 </RelativeLayout>
